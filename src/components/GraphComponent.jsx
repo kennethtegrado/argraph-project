@@ -79,7 +79,7 @@ export default ({ data, clearData, type, conclusion }) => {
 
             if (normal[id] && negated[id]) {
                 rejectResult(
-                    `Argument is invalid because there's a contradictory statement on node ${startNodeId}.`
+                    `Argument is invalid because there's a contradiction on node ${startNodeId}.`
                 );
                 startNode.style("background-color", "#f87272");
 
@@ -118,12 +118,12 @@ export default ({ data, clearData, type, conclusion }) => {
                 }
 
                 // Wait for 1 second before processing the next edge
-                await delay(500);
+                await delay(300);
             }
         }
-
-        refreshStyle(startNode);
-
+        rejectResult(
+            `The conclusion does not logically follow the premises since the proposition is not reachable.`
+        );
         return true;
     };
 
@@ -193,7 +193,7 @@ export default ({ data, clearData, type, conclusion }) => {
                 }
 
                 // Wait for 1 second before processing the next edge
-                await delay(500);
+                await delay(300);
             }
         }
 

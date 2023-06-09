@@ -4,14 +4,13 @@ export default () => {
     return (
         <div className="h-screen w-screen flex flex-col items-center justify-center gap-10">
             <h1 className="text-7xl font-bold">
-                The <span className="text-primary">Argraph </span>
-                Project
+                Understanding <span className="text-warning">Validity</span>
             </h1>
             <button
-                className="btn btn-primary btn-outline px-10"
-                onClick={() => navigate("/validity")}
+                className="btn btn-warning btn-outline px-10"
+                onClick={() => navigate("/challenges")}
             >
-                Next Flow
+                Next flow
             </button>
         </div>
     );

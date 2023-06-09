@@ -6,3 +6,26 @@ Pogi is humble
 Renz is humble
 Renz is good
 Therefore, boy is not bad  
+
+CPR is helpful
+Training is hard
+CPR is training
+CPR is skill
+A firefighter is trained
+A firefighter is skilled
+A first aider is skilled
+Jill is skilled
+Jill is a firefighter
+Jill is a first aider
+Jill is helpful
+Therefore, CPR is hard
+
+Apple is delicious
+Delicious is sweet
+Sour is not delicious
+Red apple is sweet
+Green apple is sour
+Red apple is delicious
+Sweet is expensive
+Green apple is not delicious
+Therefore, Red apple is expensive

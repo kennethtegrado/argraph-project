@@ -6,9 +6,11 @@ import "./index.css";
 
 import {
     AxiomaticSystemPage,
+    ChallengesPage,
     HomePage,
     OpeningPage,
     ValidatingArgument,
+    ValidityPage,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -22,6 +24,8 @@ const router = createBrowserRouter([
         ],
     },
     { path: "/opening", element: <OpeningPage /> },
+    { path: "/validity", element: <ValidityPage /> },
+    { path: "/challenges", element: <ChallengesPage /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
